@@ -59,7 +59,7 @@ if (Get-RabbitMQPath)
 }
 
 #now install
-Install-ChocolateyPackage 'rabbitmq' 'EXE' '/S' 'http://www.rabbitmq.com/releases/rabbitmq-server/v3.5.4/rabbitmq-server-3.5.4.exe' -validExitCodes @(0)
+Install-ChocolateyPackage 'rabbitmq' 'EXE' '/S' 'http://www.rabbitmq.com/releases/rabbitmq-server/v3.6.1/rabbitmq-server-3.6.1.exe' -validExitCodes @(0)
 
 
 $rabbitPath = Get-RabbitMQPath
